@@ -1,0 +1,61 @@
+.ballot,.btn{
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+
+.ballot:hover{
+    border:2px solid deepskyblue;
+    box-shadow: 0 0 8px;
+}
+
+
+
+.ballot-selected{
+    background-color: deepskyblue !important;
+    color: #ffffff;
+    box-shadow: 0 0 8px !important;
+}
+.panel, .panel-heading, .btn{
+    border-radius: 0 !important;
+}
+.alert-info{
+
+border-radius: 0 !important;
+    background-color: deepskyblue !important;
+    color: #ffffff;
+}
+
+
+
+.load-label{
+    position: absolute;
+    top: 30%;
+    left: 50%;background-color: #FFFFFF;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    box-shadow: 0 0 8px;
+    color: grey;
+    font-style: italic;
+}
+
+.tooltip *{
+    background-color: deepskyblue;
+    color: #FFFFFF;
+    
+}
+.tooltip{
+    transition: 0.2s ease-in-out;
+}
+
+.tooltip :after *{
+
+    background-color: deepskyblue !important;
+    color: #FFFFFF !important;
+
+}
+
